@@ -1,0 +1,46 @@
+.contactFormContainer {
+  background-color: #e5e5e5;
+}
+
+.contactFormContent {
+  display: flex;
+  padding-block: 40px;
+  gap: 100px;
+}
+
+.contactFormDescription,
+.contactFormSubmition {
+  flex: 1;
+}
+
+.contactFormDescription h2 {
+  margin-bottom: 20px;
+}
+
+.contactFormSubmition {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contactFormFields {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.nameAndSurnameFieldsWrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.nameAndSurnameFieldsWrapper input {
+  flex: 1;
+}
+
+.contactFormButton {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #fbd858;
+}
