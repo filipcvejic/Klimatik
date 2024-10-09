@@ -36,8 +36,8 @@ export default function Services() {
         <div className={styles.serviceContent} key={index}>
           <Image
             src={service.image}
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             alt="Wind image"
           />
           <p>

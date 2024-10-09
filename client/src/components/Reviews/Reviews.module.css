@@ -1,0 +1,29 @@
+.reviewsContainer {
+  margin-block: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.reviewsHeading {
+  font-size: 65px;
+}
+
+.reviewsContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-inline: 50px;
+}
+
+.review p {
+  text-align: center;
+}
