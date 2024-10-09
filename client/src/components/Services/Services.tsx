@@ -1,7 +1,7 @@
-import styles from "./Offers.module.css";
+import styles from "./Services.module.css";
 import Image from "next/image";
 
-export default function Offers() {
+export default function Services() {
   const services = [
     {
       text: "Krindzara mala",
