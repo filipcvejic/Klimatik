@@ -1,0 +1,22 @@
+.footer {
+  background-color: #393939;
+}
+
+.footerContentWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerFieldContent {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  position: relative;
+  padding-block: 30px;
+}
+
+.separator {
+  width: 2px;
+  background-color: #666666;
+}
