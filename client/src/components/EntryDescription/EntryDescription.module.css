@@ -1,0 +1,42 @@
+.EntryDescription {
+  display: flex;
+  gap: 20px;
+}
+
+.EntryDescriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: center;
+}
+
+.EntryDescriptionPreTitle {
+  font-size: x-large;
+  font-weight: 600;
+}
+.EntryDescriptionTitle {
+  font-size: xx-large;
+  font-weight: 600;
+}
+.EntryDescriptionText {
+  line-height: 30px;
+  font-size: 18px;
+}
+.EntryDescriptionButton {
+  padding: 14px 42px 14px 42px;
+  border: none;
+  background-color: #fbd858;
+  font-weight: 600;
+  font-size: 16px;
+  transition-duration: 0.1s;
+  max-width: 20%;
+}
+
+.EntryDescriptionButton:hover {
+  background-color: #ffe37f;
+  color: rgb(48, 48, 48);
+}
+.EntryDescriptionButton:active {
+  background-color: #fbd858;
+  color: black;
+}
