@@ -1,8 +1,12 @@
+import ContactForm from "@/components/ContactForm";
+import EntryDescription from "@/components/EntryDescription";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import EntryDescription from "@/components/EntryDescription/EntryDescription";
+import InBetween from "@/components/In-between";
 import Offers from "@/components/Offers";
+import Reviews from "@/components/Reviews";
+import Services from "@/components/Services";
 import WhatWeDo from "@/components/WhatWeDo";
 
 export default function Home() {
@@ -12,8 +16,13 @@ export default function Home() {
       <Hero />
       <Services />
       <EntryDescription />
-      <WhatWeDo></WhatWeDo>
+      <InBetween text="radimo 24/7 za vasu rashladu" />
       <Offers />
+      <WhatWeDo />
+      <Reviews />
+      <ContactForm />
+      <InBetween text="Fiksna cena, bez skrivenih troškova." />
+      <Footer />
     </div>
   );
 }

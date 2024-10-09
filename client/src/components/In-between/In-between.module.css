@@ -1,0 +1,22 @@
+.inBetweenContainer {
+  background-color: #fbd858;
+  padding-block: 50px;
+}
+
+.inBetweenContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inBetweenText {
+  font-size: 48px;
+}
+
+.inBetweenCallButton {
+  color: white;
+  background-color: #393939;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+}

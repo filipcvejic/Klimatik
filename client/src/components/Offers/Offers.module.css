@@ -1,21 +1,23 @@
-.offers {
+.offersContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 42px;
-  margin-bottom: 400px;
+  margin-block: 50px;
 }
-.offersTitle {
+
+.offersHeading {
   font-size: 64px;
   font-weight: 600;
 }
-.offersWrapper {
+
+.offersContent {
   display: flex;
   gap: 12px;
   list-style-type: none;
 }
 
-.offersItem {
+.offer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,26 +30,26 @@
   overflow: hidden;
 }
 
-.offersImage {
+.offerImage {
   transition: transform 0.3s;
 }
 
-.offersItem:hover .offersImage {
+.offer:hover .offerImage {
   transform: translatey(-120%);
 }
 
-.offersItem:hover {
+.offer:hover {
   background-color: #393939;
   color: white;
 }
 
-.offersItem:hover .offersButton {
+.offer:hover .offerButton {
   background-color: #ffffff;
 }
 .offersText {
 }
 
-.offersButton {
+.offerButton {
   width: 100%;
   border: none;
   padding-block: 8px;

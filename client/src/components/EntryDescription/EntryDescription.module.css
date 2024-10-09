@@ -1,28 +1,29 @@
-.EntryDescription {
+.entryDescriptionContainer {
   display: flex;
   gap: 20px;
 }
 
-.EntryDescriptionWrapper {
+.entryDescriptionTextWrapper {
   display: flex;
   flex-direction: column;
   gap: 22px;
   justify-content: center;
 }
 
-.EntryDescriptionPreTitle {
+.entryDescriptionSubHeading {
   font-size: x-large;
   font-weight: 600;
 }
-.EntryDescriptionTitle {
+.entryDescriptionHeading {
   font-size: xx-large;
   font-weight: 600;
 }
-.EntryDescriptionText {
+
+.entryDescriptionText {
   line-height: 30px;
   font-size: 18px;
 }
-.EntryDescriptionButton {
+.entryDescriptionButton {
   padding: 14px 42px 14px 42px;
   border: none;
   background-color: #fbd858;
@@ -32,11 +33,12 @@
   max-width: 20%;
 }
 
-.EntryDescriptionButton:hover {
+.entryDescriptionButton:hover {
   background-color: #ffe37f;
   color: rgb(48, 48, 48);
 }
-.EntryDescriptionButton:active {
+
+.entryDescriptionButton:active {
   background-color: #fbd858;
   color: black;
 }

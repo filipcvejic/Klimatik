@@ -3,9 +3,10 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Offers.module.css";
+import { averia_serif_libre } from "@/app/font";
 
 const Offers = () => {
-  const OffersData = [
+  const offers = [
     {
       image: "/images/Offers.png",
       text: "Zahvaljujući profesionalnom i brzom servisu koji je koristio detektor curenja rashladnih tekućina, uspjeli smo otkriti i sanirati curenje u našem hladnjaku.",
@@ -24,26 +25,27 @@ const Offers = () => {
   ];
 
   return (
-    <div className={`${styles.offers} container`}>
-      <p className={styles.offersTitle}>Nase usluge</p>
-
-      <ul className={styles.offersWrapper}>
-        {OffersData.map((OfferData) => (
-          <li className={styles.offersItem}>
+    <div className={`${styles.offersContainer} container`}>
+      <h2 className={`${styles.offersHeading} ${averia_serif_libre.className}`}>
+        Nase usluge
+      </h2>
+      <div className={styles.offersContent}>
+        {offers.map((offer, index) => (
+          <div className={styles.offer} key={index}>
             <Image
-              className={styles.offersImage}
-              src={OfferData.image}
+              className={styles.offerImage}
+              src={offer.image}
               alt="slika sa klimom"
               layout="responsive"
               width={400}
               height={200}
-            ></Image>
+            />
 
-            <p>{OfferData.text}</p>
-            <button className={styles.offersButton}>{OfferData.button}</button>
-          </li>
+            <p className={styles.offerDescription}>{offer.text}</p>
+            <button className={styles.offerButton}>{offer.button}</button>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
