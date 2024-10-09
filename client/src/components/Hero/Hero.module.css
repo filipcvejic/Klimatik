@@ -1,0 +1,26 @@
+.heroContainer {
+  position: relative;
+  height: 86vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.heroContent {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heroHeading {
+  font-size: 90px;
+  max-width: 500px;
+}
+
+.heroPhoneButton {
+  padding: 20px 60px;
+  background-color: #1b99d2;
+  color: white;
+  font-size: 50px;
+}

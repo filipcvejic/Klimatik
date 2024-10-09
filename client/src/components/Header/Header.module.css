@@ -1,0 +1,55 @@
+.header {
+  height: 14vh;
+  width: 100%;
+}
+
+.topHeaderWrapper,
+.mainHeaderWrapper {
+  height: 50%;
+  width: 100%;
+}
+
+.topHeaderContent,
+.mainHeaderContent {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topHeaderWrapper {
+  border-bottom: 2px solid #bababa;
+}
+
+.topHeaderContact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topHeaderInstagramContactWrapper {
+}
+
+.topHeaderPhoneContactContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navBar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.mainHeaderPhoneButton {
+  background-color: #fbd858;
+  padding: 10px 20px;
+}
