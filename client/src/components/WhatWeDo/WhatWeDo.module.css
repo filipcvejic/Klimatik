@@ -1,0 +1,26 @@
+.WhatWeDoWrapper {
+  background-color: #e7e7e7;
+}
+.WhatWeDoTitle {
+  font-size: 64px;
+  font-weight: 600;
+}
+.WhatWeDoContainer {
+  padding-block: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.WhatWeDoTextWrapper {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.WhatWeDoLeftText {
+  flex: 1;
+}
+.WhatWeDoLeftText {
+  flex: 1;
+}
