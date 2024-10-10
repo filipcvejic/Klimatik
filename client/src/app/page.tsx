@@ -13,7 +13,9 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Hero />
+      <div id="home">
+        <Hero />
+      </div>
       <Services />
       <EntryDescription />
       <InBetween text="radimo 24/7 za vasu rashladu" />

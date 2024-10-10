@@ -27,3 +27,9 @@
 .review p {
   text-align: center;
 }
+
+@media screen and (max-width: 920px) {
+  .reviewsContent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

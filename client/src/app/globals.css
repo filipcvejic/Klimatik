@@ -2,6 +2,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -24,6 +25,18 @@ a {
   max-width: 1240px;
   padding-inline: 20px;
   margin: 0 auto;
+}
+
+#home,
+#entry,
+#services,
+#about,
+#experiences {
+  scroll-margin-top: 14vh;
+}
+
+#home {
+  padding-top: 14vh;
 }
 
 ::-webkit-scrollbar {
