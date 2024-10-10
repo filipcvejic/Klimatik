@@ -55,15 +55,15 @@ export default function Header() {
           </div>
           <nav className={styles.navBar}>
             <ul>
-              <li>sekcija</li>
-              <li>sekcija</li>
-              <li>sekcija</li>
-              <li>sekcija</li>
-              <li>sekcija</li>
+              <li>Pocetna</li>
+              <li>Uvod</li>
+              <li>Usluge</li>
+              <li>O Nama</li>
+              <li>Iskustva</li>
             </ul>
           </nav>
           <div className={styles.mainHeaderPhoneButton}>
-            <a href={`tel:${PHONE_NUMBER}`}>pozovi</a>
+            <a href={`tel:${PHONE_NUMBER}`}>Pozovi nas</a>
           </div>
         </div>
       </div>
