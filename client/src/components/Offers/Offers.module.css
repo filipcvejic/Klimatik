@@ -1,41 +1,25 @@
 .offersContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 42px;
   margin-block: 50px;
 }
 
 .offersHeading {
   font-size: 64px;
   font-weight: 600;
-}
-
-.offersContent {
-  display: flex;
-  gap: 12px;
-  list-style-type: none;
+  text-align: center;
+  padding-bottom: 42px;
 }
 
 .offer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
   box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.5);
-  gap: 24px;
+
   padding: 20px;
   text-align: center;
   font-size: 20px;
   transition-duration: 0.35s;
-  overflow: hidden;
-}
-
-.offerImage {
-  transition: transform 0.3s;
-}
-
-.offer:hover .offerImage {
-  transform: translatey(-120%);
+  height: 100%;
 }
 
 .offer:hover {
@@ -45,8 +29,6 @@
 
 .offer:hover .offerButton {
   background-color: #ffffff;
-}
-.offersText {
 }
 
 .offerButton {
@@ -58,7 +40,3 @@
   font-weight: 600;
   transition-duration: 0.2s;
 }
-
-/* .offersButton:hover {
-  background-color: white;
-} */

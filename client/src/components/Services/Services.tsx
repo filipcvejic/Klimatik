@@ -4,28 +4,23 @@ import Image from "next/image";
 export default function Services() {
   const services = [
     {
-      text: "Krindzara mala",
-      subText: "Stefan",
+      text: "Servis i održavanje klima opreme",
       image: "/images/wind.png",
     },
     {
-      text: "Krindzara mala",
-      subText: "Stefan",
+      text: "Hitna intervencija za klima uređaje",
       image: "/images/wind.png",
     },
     {
-      text: "Krindzara mala",
-      subText: "Stefan",
+      text: "Dijagnostika kvarova i popravka",
       image: "/images/wind.png",
     },
     {
-      text: "Krindzara mala",
-      subText: "Stefan",
+      text: "Zamena starih klima uređaja",
       image: "/images/wind.png",
     },
     {
-      text: "Krindzara mala",
-      subText: "Stefan",
+      text: "Postavljanje ventilacionih sistema",
       image: "/images/wind.png",
     },
   ];
@@ -40,11 +35,7 @@ export default function Services() {
             height={150}
             alt="Wind image"
           />
-          <p>
-            {service.text}
-            <br />
-            {service.subText}
-          </p>
+          <p>{service.text}</p>
         </div>
       ))}
     </div>
