@@ -13,7 +13,20 @@
 .entryDescriptionSubHeading {
   font-size: x-large;
   font-weight: 600;
+  position: relative;
 }
+
+.entryDescriptionSubHeading::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 0;
+  width: 24px;
+  border-radius: 12px;
+  height: 4px;
+  background-color: #1b99d2;
+}
+
 .entryDescriptionHeading {
   font-size: xx-large;
   font-weight: 600;
@@ -30,7 +43,7 @@
   font-weight: 600;
   font-size: 16px;
   transition-duration: 0.1s;
-  max-width: 20%;
+  max-width: 30%;
 }
 
 .entryDescriptionButton:hover {

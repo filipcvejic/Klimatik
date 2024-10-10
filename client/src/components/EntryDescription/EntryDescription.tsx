@@ -4,34 +4,35 @@ import styles from "./EntryDescription.module.css";
 
 const EntryDescription = () => {
   return (
-    <div className={`${styles.entryDescriptionContainer} container`}>
+    <section className={`${styles.entryDescriptionContainer} container`}>
       <Image
         src="/images/smartHome.png"
         width={600}
         height={600}
         quality={90}
-        alt="home with smart aircondition"
+        alt="home with smart air conditioning"
       />
-      <div className={`${styles.entryDescriptionTextWrapper} `}>
+      <div className={styles.entryDescriptionTextWrapper}>
         <p className={styles.entryDescriptionSubHeading}>
-          Naslov nes kao klima
+          Ključne Prednosti Ugradnje Klima Uređaja
         </p>
-        <h3 className={styles.entryDescriptionHeading}>
-          Naslov nes kao klima Naslov nes kao klimaNaslov nes kao klima
-        </h3>
+        <h1 className={styles.entryDescriptionHeading}>
+          Postavljanje Klima Uređaja: Uživajte u Savršenoj Klimi
+        </h1>
         <p className={styles.entryDescriptionText}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          vehicula, lorem ac scelerisque volutpat, orci mauris placerat orci,
-          non gravida velit risus sed orci. Integer et nibh vel odio condimentum
-          tincidunt non nec erat. Praesent fringilla risus vel felis suscipit,
-          ac interdum leo facilisis. Suspendisse potenti. Phasellus interdum, da
-          velit risus sed orci. Integer et nibh vel odio condimentum tincidunt
-          non nec erat. Praesent fringilla risus vel felis suscipit, ac interdum
-          leo facilisis. Suspendisse potenti.
+          U današnje vreme, klima uređaji su postali neophodni za održavanje
+          prijatnog ambijenta u vašem domu ili kancelariji. Naš tim stručnjaka
+          pruža profesionalnu ugradnju klima uređaja koja osigurava optimalan
+          rad i poboljšanje kvaliteta vazduha.
         </p>
-        <button className={styles.entryDescriptionButton}>pozovi</button>
+        <p className={styles.entryDescriptionText}>
+          Naša usluga uključuje besplatnu procenu i savetovanje o najboljim
+          rešenjima za vaš prostor. Kontaktirajte nas i saznajte kako možemo
+          poboljšati vašu udobnost!
+        </p>
+        <button className={styles.entryDescriptionButton}>Pozovi nas</button>
       </div>
-    </div>
+    </section>
   );
 };
 
