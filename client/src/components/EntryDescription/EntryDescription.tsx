@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./EntryDescription.module.css";
+import { PHONE_NUMBER } from "@/constants";
 
 const EntryDescription = () => {
   return (
-    <section className={`${styles.entryDescriptionContainer} container`}>
+    <div className={`${styles.entryDescriptionContainer} container`} id="entry">
       <Image
         src="/images/smartHome.png"
         width={600}
@@ -30,7 +31,12 @@ const EntryDescription = () => {
           rešenjima za vaš prostor. Kontaktirajte nas i saznajte kako možemo
           poboljšati vašu udobnost!
         </p>
-        <button className={styles.entryDescriptionButton}>Pozovi nas</button>
+        <a
+          href={`tel:${PHONE_NUMBER}`}
+          className={styles.entryDescriptionButton}
+        >
+          pozovi
+        </a>
       </div>
     </section>
   );

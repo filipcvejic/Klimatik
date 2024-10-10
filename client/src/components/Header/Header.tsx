@@ -1,8 +1,32 @@
 import { EMAIL, PHONE_NUMBER } from "@/constants";
 import Image from "next/image";
 import styles from "./Header.module.css";
+import HamburgerMenu from "../HamburgerMenu";
 
 export default function Header() {
+  const navigationLinks = [
+    {
+      label: "Početna",
+      href: "home",
+    },
+    {
+      label: "Uvod",
+      href: "entry",
+    },
+    {
+      label: "Usluge",
+      href: "services",
+    },
+    {
+      label: "O nama",
+      href: "about",
+    },
+    {
+      label: "Iskustva",
+      href: "experiences",
+    },
+  ];
+
   return (
     <header className={styles.header}>
       <div className={styles.topHeaderWrapper}>
@@ -55,15 +79,18 @@ export default function Header() {
           </div>
           <nav className={styles.navBar}>
             <ul>
-              <li>Pocetna</li>
-              <li>Uvod</li>
-              <li>Usluge</li>
-              <li>O Nama</li>
-              <li>Iskustva</li>
+              {navigationLinks.map((navLink, index) => (
+                <li key={index}>
+                  <a href={navLink.href}>{navLink.label}</a>
+                </li>
+              ))}
             </ul>
           </nav>
           <div className={styles.mainHeaderPhoneButton}>
-            <a href={`tel:${PHONE_NUMBER}`}>Pozovi nas</a>
+            <a href={`tel:${PHONE_NUMBER}`}>pozovi</a>
+          </div>
+          <div className={styles.hamburgerMenu}>
+            <HamburgerMenu navLinks={navigationLinks} />
           </div>
         </div>
       </div>

@@ -37,13 +37,14 @@
   font-size: 18px;
 }
 .entryDescriptionButton {
-  padding: 14px 42px 14px 42px;
+  text-align: center;
   border: none;
   background-color: #fbd858;
   font-weight: 600;
   font-size: 16px;
   transition-duration: 0.1s;
-  max-width: 30%;
+  width: 150px;
+  padding-block: 10px;
 }
 
 .entryDescriptionButton:hover {
@@ -54,4 +55,16 @@
 .entryDescriptionButton:active {
   background-color: #fbd858;
   color: black;
+}
+
+@media screen and (max-width: 1080px) {
+  .entryDescriptionContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .entryDescriptionTextWrapper {
+    align-items: center;
+  }
 }

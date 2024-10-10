@@ -1,26 +1,32 @@
-.WhatWeDoWrapper {
+.whatWeDoContainer {
   background-color: #e7e7e7;
 }
-.WhatWeDoTitle {
+.whatWeDoHeading {
   font-size: 64px;
   font-weight: 600;
+  text-align: center;
 }
-.WhatWeDoContainer {
-  padding-block: 82px;
+.whatWeDoContentWrapper {
+  padding-block: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 80px;
 }
 
-.WhatWeDoTextWrapper {
+.whatWeDoTextWrapper {
   display: flex;
   gap: 20px;
   font-size: 20px;
 }
-.WhatWeDoLeftText {
+.whatWeDoTextWrapper p {
   flex: 1;
 }
-.WhatWeDoLeftText {
-  flex: 1;
+
+@media screen and (max-width: 920px) {
+  .whatWeDoTextWrapper {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
 }

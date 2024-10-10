@@ -5,6 +5,11 @@
   overflow: hidden;
 }
 
+.heroImage {
+  object-fit: cover;
+  object-position: center;
+}
+
 .heroContent {
   position: absolute;
   width: 100%;

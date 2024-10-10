@@ -44,3 +44,22 @@
   border: none;
   background-color: #fbd858;
 }
+
+@media screen and (max-width: 900px) {
+  .contactFormContent {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nameAndSurnameFieldsWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nameAndSurnameFieldsWrapper input {
+    flex: none;
+  }
+}
