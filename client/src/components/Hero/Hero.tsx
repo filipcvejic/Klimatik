@@ -1,6 +1,7 @@
 import { PHONE_NUMBER } from "@/constants";
 import styles from "./Hero.module.css";
 import Image from "next/image";
+import { averia_serif_libre } from "@/app/font";
 
 export default function Hero() {
   return (
@@ -16,12 +17,10 @@ export default function Hero() {
         <p className={styles.heroSubtitle}>
           <span>Klimatik</span> pouzdana instalacija klime
         </p>
-        <h1 className={styles.heroHeading}>Popravka & Ugradnja Klime</h1>
-        <a
-          href={`tel:${PHONE_NUMBER}`}
-          className={styles.heroPhoneButton}
-          aria-label={`Pozovite ${PHONE_NUMBER}`}
-        >
+        <h1 className={`${styles.heroHeading} ${averia_serif_libre.className}`}>
+          Popravka & Ugradnja Klime
+        </h1>
+        <a href={`tel:${PHONE_NUMBER}`} className={styles.heroPhoneButton}>
           {PHONE_NUMBER}
         </a>
       </div>

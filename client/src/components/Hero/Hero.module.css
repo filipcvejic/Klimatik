@@ -13,7 +13,6 @@
 .heroContent {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   position: absolute;
   width: 100%;
   top: 50%;
@@ -21,27 +20,26 @@
   font-size: 18px;
   font-weight: 500;
   transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 .heroHeading {
   font-size: 90px;
   max-width: 600px;
-  line-height: 100px;
+  line-height: 1.1;
 }
 
 .heroContent p {
-  position: absolute;
   font-size: 20px;
   font-weight: 600;
-  left: 26px;
-  top: -10px;
+  padding-left: 4px;
 }
 
 .heroContent a {
   width: max-content;
 }
 
-.heroContent span {
+.heroContent p span {
   color: #1b99d2;
 }
 
@@ -56,57 +54,55 @@
   -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.56);
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.56);
 }
+
 .heroPhoneButton:hover {
   background-color: #fbd858;
   color: black;
 }
 
 @media screen and (max-width: 1280px) {
+  .heroContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+
   .heroContent {
     text-align: center;
     align-items: center;
     gap: 0;
     color: white;
-    top: 40%;
   }
 
-  .heroContent p {
-    position: unset;
-  }
-
-  .heroContent a {
-    margin-top: 24px;
+  .heroPhoneButton {
+    margin-top: 20px;
   }
 }
+
 @media screen and (max-width: 580px) {
   .heroContent h1 {
     font-size: 72px;
   }
+
+  .heroPhoneButton {
+    padding-inline: 40px;
+  }
 }
+
 @media screen and (max-width: 470px) {
   .heroContent h1 {
-    font-size: 58px;
-    line-height: 82px;
+    font-size: 65px;
   }
   .heroContent p {
     font-size: 16px;
   }
   .heroPhoneButton {
-    min-width: 100%;
-    padding: 20px 0px;
-
     font-size: 40px;
-  }
-}
-@media screen and (max-width: 390px) {
-  .heroContent h1 {
-    font-size: 46px;
-    line-height: 64px;
-  }
-  .heroContent p {
-    font-size: 14px;
-  }
-  .heroPhoneButton {
-    font-size: 38px;
+    padding-inline: 10px;
   }
 }
