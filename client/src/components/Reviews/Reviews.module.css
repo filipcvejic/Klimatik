@@ -1,14 +1,10 @@
-.reviewsContainer {
-  height: 86vh;
-}
-
 .reviewsContentWrapper {
-  height: 100%;
-  /* padding-block: 80px; */
+  padding-block: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  gap: 80px;
 }
 
 .reviewsHeading {
@@ -40,10 +36,6 @@
 }
 
 @media screen and (max-width: 920px) {
-  .reviewsContainer {
-    height: 100%;
-  }
-
   .reviewsContentWrapper {
     gap: 60px;
     padding-block: 30px;
