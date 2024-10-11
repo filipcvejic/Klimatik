@@ -26,6 +26,7 @@
 
 .review p {
   text-align: center;
+  padding-bottom: 12px;
 }
 
 @media screen and (max-width: 920px) {

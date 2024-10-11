@@ -7,15 +7,15 @@ export default function ContactForm() {
     <div className={styles.contactFormContainer}>
       <div className={`${styles.contactFormContent} container`}>
         <div className={styles.contactFormDescription}>
-          <span>Naslov nes kao klima</span>
-          <h3>Naslov nes kao klima Naslov nes kao klima</h3>
+          <span>Kontaktirajte nas!</span>
+          <h3>Klima uređaji - Ugradnja, Servis i Održavanje</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            vehicula, lorem ac scelerisque volutpat, orci mauris placerat orci,
-            non gravida velit risus sed orci. Integer et nibh vel odio
-            condimentum tincidunt non nec erat. Praesent fringilla risus vel
-            felis suscipit, ac interdum leo facilisis. Suspendisse potenti.
-            Phasellus interdum, magna at
+            Nudimo profesionalnu ugradnju klima uređaja i redovan servis kako bi
+            vaš sistem radio besprekorno tokom cele godine. Naš tim stručnjaka
+            pruža brzu i efikasnu uslugu prilagođenu vašim potrebama, bilo da
+            vam je potrebna nova klima, popravka ili godišnji pregled.
+            Kontaktirajte nas za pouzdana rešenja za hlađenje i klimatizaciju,
+            jer naša dugogodišnja iskustva garantuju kvalitet i pouzdanost.
           </p>
         </div>
         <div className={styles.contactFormSubmition}>
