@@ -5,29 +5,32 @@ import Image from "next/image";
 export default function Reviews() {
   const reviews = [
     {
-      picture: "/images/user.png",
-      text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, lorem ac scelerisque volutpat,',
+      picture: "/images/handsomeMan.png",
+      text: "“Vrlo smo zadovoljni uslugom ugradnje klime. Tim je bio efikasan, ljubazan i precizan, a klima uređaj je postavljen bez ikakvih zastoja. Sve preporuke za ovaj stručni tim!”",
+      name: "Marko Petrović",
     },
     {
-      picture: "/images/user.png",
-      text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, lorem ac scelerisque volutpat,',
+      picture: "/images/handsomeWoman.png",
+      text: "“Ugradnja klime je prošla brzo i bez problema. Tim je bio profesionalan, a rezultat je odličan. Sada uživamo u prijatnoj temperaturi tokom cele godine.”",
+      name: "Ana Jovanović",
     },
     {
-      picture: "/images/user.png",
-      text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, lorem ac scelerisque volutpat,',
+      picture: "/images/fatMan.png",
+      text: "“Ekipa za ugradnju klime je stigla na vreme, radila profesionalno i sve objasnila detaljno. Postavili su klimu brzo, bez ikakvih problema. Topla preporuka.”",
+      name: "Milan Nikolić",
     },
     {
-      picture: "/images/user.png",
-      text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, lorem ac scelerisque volutpat,',
+      picture: "/images/fatWoman.png",
+      text: "“Odlična usluga! Ugradnja klime je bila brza i jednostavna, a klima radi savršeno. Tim je bio ljubazan i vrlo profesionalan. Hvala vam!”",
+      name: "Ivana Stojanović",
     },
   ];
-
   return (
     <div className={`${styles.reviewsContainer} container`}>
       <h2
         className={`${styles.reviewsHeading} ${averia_serif_libre.className}`}
       >
-        Recenzije
+        Iskustva
       </h2>
       <div className={styles.reviewsContent}>
         {reviews.map((review, index) => (
@@ -36,9 +39,12 @@ export default function Reviews() {
               src={review.picture}
               width={100}
               height={100}
-              alt="User picture"
+              alt={`Profilna slika korisnika ${review.name}`}
             />
-            <p>{review.text}</p>
+            <blockquote>
+              <p>{review.text}</p>
+              <strong>- {review.name}</strong>
+            </blockquote>
           </div>
         ))}
       </div>
