@@ -34,10 +34,7 @@
   gap: 10px;
 }
 
-.topHeaderInstagramContactWrapper {
-}
-
-.topHeaderPhoneContactContainer {
+.topHeaderPhoneContactWrapper {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -73,5 +70,9 @@
 
   .hamburgerMenu {
     display: block;
+  }
+
+  .topHeaderMail {
+    display: none;
   }
 }

@@ -1,5 +1,6 @@
 .whatWeDoContainer {
   background-color: #e7e7e7;
+  height: 86vh;
 }
 .whatWeDoHeading {
   font-size: 64px;
@@ -24,9 +25,21 @@
 }
 
 @media screen and (max-width: 920px) {
+  .whatWeDoContentWrapper {
+    height: 100%;
+    justify-content: space-around;
+  }
+
   .whatWeDoTextWrapper {
     flex-direction: column;
     gap: 50px;
     text-align: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .whatWeDoContainer {
+    height: 100%;
   }
 }

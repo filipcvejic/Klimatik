@@ -31,7 +31,7 @@ const Offers = () => {
   ];
 
   return (
-    <div className={`${styles.offersContainer} container`}>
+    <div className={`${styles.offersContainer} container`} id="services">
       <h2 className={`${styles.offersHeading} ${averia_serif_libre.className}`}>
         Nase usluge klimatskih uređaja
       </h2>

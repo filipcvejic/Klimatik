@@ -3,7 +3,7 @@ import styles from "./WhatWeDo.module.css";
 
 const WhatWeDo = () => {
   return (
-    <div className={styles.whatWeDoContainer}>
+    <div className={styles.whatWeDoContainer} id="about">
       <div className={`${styles.whatWeDoContentWrapper} container`}>
         <h2
           className={`${styles.whatWeDoHeading} ${averia_serif_libre.className}`}

@@ -1,6 +1,13 @@
-.entryDescriptionContainer {
+.entryDescriptionContentWrapper {
   display: flex;
   gap: 20px;
+  margin-block: 60px;
+  padding-top: 45px;
+  align-items: center;
+}
+
+.entryDescriptionImage {
+  padding-inline: 40px;
 }
 
 .entryDescriptionTextWrapper {
@@ -58,7 +65,7 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .entryDescriptionContainer {
+  .entryDescriptionContentWrapper {
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
@@ -66,5 +73,31 @@
 
   .entryDescriptionTextWrapper {
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .entryDescriptionContentWrapper img {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .entryDescriptionContentWrapper img {
+    height: 380px;
+    width: 380px;
+  }
+
+  .entryDescriptionSubHeading {
+    font-size: 20px;
+  }
+
+  .entryDescriptionHeading {
+    font-size: 24px;
+  }
+
+  .entryDescriptionText {
+    font-size: 18px;
   }
 }

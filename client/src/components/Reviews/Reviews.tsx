@@ -23,7 +23,7 @@ export default function Reviews() {
   ];
 
   return (
-    <div className={`${styles.reviewsContainer} container`}>
+    <div className={`${styles.reviewsContainer} container`} id="experiences">
       <h2
         className={`${styles.reviewsHeading} ${averia_serif_libre.className}`}
       >
