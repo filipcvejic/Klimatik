@@ -23,6 +23,11 @@
   gap: 30px;
 }
 
+.contactFormText {
+  padding-top: 12px;
+  line-height: 22px;
+}
+
 .contactFormFields {
   display: flex;
   flex-direction: column;
@@ -41,7 +46,17 @@
 .contactFormButton {
   width: 100px;
   height: 35px;
+  font-size: 16px;
+  font-weight: 600;
   border: none;
+  background-color: #fbd858;
+}
+
+.contactFormButton:hover {
+  background-color: #ffe37f;
+}
+
+.contactFormButton:active {
   background-color: #fbd858;
 }
 

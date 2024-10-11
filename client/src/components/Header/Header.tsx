@@ -68,20 +68,22 @@ export default function Header() {
       </div>
       <div className={styles.mainHeaderWrapper}>
         <div className={`${styles.mainHeaderContent} container`}>
-          <div className={styles.logoWrapper}>
+          <a href="#home" className={styles.logoWrapper}>
             <Image
               src="/images/logo.png"
               alt="Klimatik logo"
               height={50}
               width={50}
             />
-            <h2>Klimatik</h2>
-          </div>
+            <h2 className={styles.logo}>Klimatik</h2>
+          </a>
           <nav className={styles.navBar}>
             <ul>
               {navigationLinks.map((navLink, index) => (
                 <li key={index}>
-                  <a href={`#${navLink.href}`}>{navLink.label}</a>
+                  <a className={styles.navLinkLabel} href={`#${navLink.href}`}>
+                    {navLink.label}
+                  </a>
                 </li>
               ))}
             </ul>

@@ -9,7 +9,7 @@ export default function ContactForm() {
         <div className={styles.contactFormDescription}>
           <span>Kontaktirajte nas!</span>
           <h3>Klima uređaji - Ugradnja, Servis i Održavanje</h3>
-          <p>
+          <p className={styles.contactFormText}>
             Nudimo profesionalnu ugradnju klima uređaja i redovan servis kako bi
             vaš sistem radio besprekorno tokom cele godine. Naš tim stručnjaka
             pruža brzu i efikasnu uslugu prilagođenu vašim potrebama, bilo da

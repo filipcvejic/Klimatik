@@ -19,6 +19,14 @@
   padding: 10px 30px;
   display: flex;
   align-items: center;
+  transition: background-color 0.2s;
+}
+
+.inBetweenCallButton:hover {
+  background-color: #505050;
+}
+.inBetweenCallButton:active {
+  background-color: #393939;
 }
 
 @media screen and (max-width: 920px) {

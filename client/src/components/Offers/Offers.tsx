@@ -33,7 +33,7 @@ const Offers = () => {
   return (
     <div className={`${styles.offersContainer} container`} id="services">
       <h2 className={`${styles.offersHeading} ${averia_serif_libre.className}`}>
-        Nase usluge klimatskih uređaja
+        Nase usluge klimatskih uredjaja
       </h2>
       <Swiper
         style={{ padding: 20, paddingBottom: 40, height: "72vh" }}
