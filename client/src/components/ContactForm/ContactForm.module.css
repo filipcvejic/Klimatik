@@ -91,3 +91,8 @@
     flex: none;
   }
 }
+@media screen and (max-width: 485px) {
+  .contactFormDescriptionHeading {
+    font-size: 28px;
+  }
+}
