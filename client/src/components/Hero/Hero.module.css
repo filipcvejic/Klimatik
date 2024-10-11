@@ -28,4 +28,11 @@
   background-color: #1b99d2;
   color: white;
   font-size: 50px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.56);
+}
+
+.heroPhoneButton:hover {
+  background-color: #fbd858;
+  color: black;
 }

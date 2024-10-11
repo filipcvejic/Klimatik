@@ -38,7 +38,7 @@ const EntryDescription = () => {
           pozovi
         </a>
       </div>
-    </section>
+    </div>
   );
 };
 
