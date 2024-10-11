@@ -25,8 +25,9 @@ export default function Reviews() {
       name: "Ivana Stojanović",
     },
   ];
+
   return (
-    <div className={styles.reviewsContainer} id="experiences">
+    <section className={styles.reviewsContainer} id="experiences">
       <div className={`${styles.reviewsContentWrapper} container`}>
         <h2
           className={`${styles.reviewsHeading} ${averia_serif_libre.className}`}
@@ -35,7 +36,7 @@ export default function Reviews() {
         </h2>
         <div className={styles.reviewsContent}>
           {reviews.map((review, index) => (
-            <div className={styles.review} key={index}>
+            <article className={styles.review} key={index}>
               <Image
                 src={review.picture}
                 width={100}
@@ -46,10 +47,10 @@ export default function Reviews() {
                 <p>{review.text}</p>
                 <strong>- {review.name}</strong>
               </blockquote>
-            </div>
+            </article>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

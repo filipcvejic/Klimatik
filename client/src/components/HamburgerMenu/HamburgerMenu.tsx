@@ -46,7 +46,7 @@ export default function HamburgerMenu({ navLinks }: HamburgerMenuProps) {
   return (
     <>
       {openIcon}
-      <div className={`${styles.menuWrapper} ${isOpened ? styles.open : ""}`}>
+      <nav className={`${styles.menuWrapper} ${isOpened ? styles.open : ""}`}>
         <div className={styles.menuHeading}>
           <a href={`tel:${PHONE_NUMBER}`}>
             <svg
@@ -95,7 +95,7 @@ export default function HamburgerMenu({ navLinks }: HamburgerMenuProps) {
             </li>
           ))}
         </ul>
-      </div>
+      </nav>
     </>
   );
 }

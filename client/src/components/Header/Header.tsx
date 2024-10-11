@@ -2,6 +2,7 @@ import { EMAIL, PHONE_NUMBER } from "@/constants";
 import Image from "next/image";
 import styles from "./Header.module.css";
 import HamburgerMenu from "../HamburgerMenu";
+import { averia_serif_libre } from "@/app/font";
 
 export default function Header() {
   const navigationLinks = [
@@ -75,7 +76,9 @@ export default function Header() {
               height={50}
               width={50}
             />
-            <h2 className={styles.logo}>Klimatik</h2>
+            <h2 className={`${styles.logo} ${averia_serif_libre.className}`}>
+              Klimatik
+            </h2>
           </a>
           <nav className={styles.navBar}>
             <ul>

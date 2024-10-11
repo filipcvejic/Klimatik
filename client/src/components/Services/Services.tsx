@@ -88,13 +88,13 @@ export default function Services() {
   ];
 
   return (
-    <div className={`${styles.servicesContainer} container`}>
+    <section className={`${styles.servicesContainer} container`}>
       {services.map((service, index) => (
-        <div className={styles.serviceContent} key={index}>
+        <article className={styles.serviceContent} key={index}>
           {service.icon}
           <p>{service.text}</p>
-        </div>
+        </article>
       ))}
-    </div>
+    </section>
   );
 }

@@ -6,7 +6,7 @@ import { averia_serif_libre } from "@/app/font";
 
 const EntryDescription = () => {
   return (
-    <div className={styles.entryDescriptionContainer} id="entry">
+    <section className={styles.entryDescriptionContainer} id="entry">
       <h2
         className={`${styles.entryDescriptionTitle} ${averia_serif_libre.className}`}
       >
@@ -22,9 +22,9 @@ const EntryDescription = () => {
           className={styles.entryDescriptionImage}
         />
         <div className={styles.entryDescriptionTextWrapper}>
-          <h2 className={styles.entryDescriptionHeading}>
+          <h3 className={styles.entryDescriptionHeading}>
             Postavljanje Klima Uređaja: Uživajte u Savršenoj Klimi
-          </h2>
+          </h3>
           <p className={styles.entryDescriptionText}>
             U današnje vreme, klima uređaji su postali neophodni za održavanje
             prijatnog ambijenta u vašem domu ili kancelariji. Naš tim stručnjaka
@@ -43,7 +43,7 @@ const EntryDescription = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

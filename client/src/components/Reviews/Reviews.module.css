@@ -18,7 +18,7 @@
 .reviewsContent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 100px;
+  gap: 80px;
   font-size: 20px;
 }
 

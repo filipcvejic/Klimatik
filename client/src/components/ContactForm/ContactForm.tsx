@@ -4,15 +4,15 @@ import styles from "./ContactForm.module.css";
 
 export default function ContactForm() {
   return (
-    <div className={styles.contactFormContainer}>
+    <section className={styles.contactFormContainer}>
       <div className={`${styles.contactFormContent} container`}>
         <div className={styles.contactFormDescriptionContent}>
           <span className={styles.contactFormDescriptionSubHeading}>
             Kontaktirajte nas!
           </span>
-          <h3 className={styles.contactFormDescriptionHeading}>
+          <h2 className={styles.contactFormDescriptionHeading}>
             Klima uređaji - Ugradnja, Servis i Održavanje
-          </h3>
+          </h2>
           <p className={styles.contactFormText}>
             Nudimo profesionalnu ugradnju klima uređaja i redovan servis kako bi
             vaš sistem radio besprekorno tokom cele godine. Naš tim stručnjaka
@@ -34,10 +34,10 @@ export default function ContactForm() {
           <button
             className={`${styles.contactFormButton} ${averia_serif_libre.className}`}
           >
-            Posalji
+            Pošalji
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

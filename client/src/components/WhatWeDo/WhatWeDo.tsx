@@ -3,7 +3,7 @@ import styles from "./WhatWeDo.module.css";
 
 const WhatWeDo = () => {
   return (
-    <div className={styles.whatWeDoContainer} id="about">
+    <section className={styles.whatWeDoContainer} id="about">
       <div className={`${styles.whatWeDoContentWrapper} container`}>
         <h2
           className={`${styles.whatWeDoHeading} ${averia_serif_libre.className}`}
@@ -11,7 +11,7 @@ const WhatWeDo = () => {
           O nama
         </h2>
         <div className={styles.whatWeDoTextWrapper}>
-          <div className={styles.whatWeDoTextSection}>
+          <article className={styles.whatWeDoTextSection}>
             <h3 className={styles.whatWeDoTextSectionHeading}>
               Naša stručnost
             </h3>
@@ -20,14 +20,13 @@ const WhatWeDo = () => {
               <strong>profesionalnu ugradnju klima uređaja</strong>, pružajući
               vam najbolje rešenje za efikasno hlađenje i klimatizaciju vašeg
               prostora. Bilo da vam je potrebna{" "}
-              <strong>instalacija novih klima uređaja</strong>
-              ili zamena postojećih sistema, nudimo{" "}
-              <strong>brzu i pouzdanu uslugu</strong> prilagođenu vašim
-              potrebama. Naš stručni tim osigurava kvalitetnu montažu kako biste
-              uštedeli energiju i troškove.
+              <strong>instalacija novih klima uređaja</strong> ili zamena
+              postojećih sistema, nudimo <strong>brzu i pouzdanu uslugu</strong>{" "}
+              prilagođenu vašim potrebama. Naš stručni tim osigurava kvalitetnu
+              montažu kako biste uštedeli energiju i troškove.
             </p>
-          </div>
-          <div className={styles.whatWeDoTextSection}>
+          </article>
+          <article className={styles.whatWeDoTextSection}>
             <h3 className={styles.whatWeDoTextSectionHeading}>Naša misija</h3>
             <p className={styles.whatWeDoTextSectionContent}>
               Sa dugogodišnjim iskustvom u{" "}
@@ -39,10 +38,10 @@ const WhatWeDo = () => {
               trajanja vašeg sistema. Kontaktirajte nas već danas i saznajte
               više o našim <strong>uslugama klimatizacije</strong>.
             </p>
-          </div>
+          </article>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
