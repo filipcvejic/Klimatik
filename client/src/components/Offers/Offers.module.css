@@ -43,3 +43,9 @@
   font-weight: 600;
   transition-duration: 0.2s;
 }
+
+@media screen and (max-width: 380px) {
+  .offer {
+    font-size: 16px;
+  }
+}
