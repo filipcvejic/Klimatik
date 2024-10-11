@@ -43,3 +43,18 @@
     justify-self: center;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .serviceContent {
+    height: 200px;
+  }
+
+  .serviceContent svg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .serviceContent p {
+    font-size: 18px;
+  }
+}
