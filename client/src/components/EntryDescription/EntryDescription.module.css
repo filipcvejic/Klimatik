@@ -6,10 +6,6 @@
   align-items: center;
 }
 
-.entryDescriptionImage {
-  padding-inline: 40px;
-}
-
 .entryDescriptionTextWrapper {
   display: flex;
   flex-direction: column;
@@ -51,7 +47,7 @@
   font-size: 16px;
   transition-duration: 0.1s;
   padding-block: 10px;
-  max-width: 150px;
+  width: 150px;
 }
 
 .entryDescriptionButton:hover {
@@ -77,14 +73,15 @@
 }
 
 @media screen and (max-width: 720px) {
-  .entryDescriptionContentWrapper img {
-    height: 450px;
+  .entryDescriptionImage {
+    padding-inline: 40px;
     width: 450px;
+    height: 450px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .entryDescriptionContentWrapper img {
+  .entryDescriptionImage {
     height: 380px;
     width: 380px;
   }

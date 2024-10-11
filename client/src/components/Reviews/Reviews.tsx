@@ -26,27 +26,29 @@ export default function Reviews() {
     },
   ];
   return (
-    <div className={`${styles.reviewsContainer} container`} id="experiences">
-      <h2
-        className={`${styles.reviewsHeading} ${averia_serif_libre.className}`}
-      >
-        Iskustva
-      </h2>
-      <div className={styles.reviewsContent}>
-        {reviews.map((review, index) => (
-          <div className={styles.review} key={index}>
-            <Image
-              src={review.picture}
-              width={100}
-              height={100}
-              alt={`Profilna slika korisnika ${review.name}`}
-            />
-            <blockquote>
-              <p>{review.text}</p>
-              <strong>- {review.name}</strong>
-            </blockquote>
-          </div>
-        ))}
+    <div className={styles.reviewsContainer} id="experiences">
+      <div className={`${styles.reviewsContentWrapper} container`}>
+        <h2
+          className={`${styles.reviewsHeading} ${averia_serif_libre.className}`}
+        >
+          Iskustva
+        </h2>
+        <div className={styles.reviewsContent}>
+          {reviews.map((review, index) => (
+            <div className={styles.review} key={index}>
+              <Image
+                src={review.picture}
+                width={100}
+                height={100}
+                alt={`Profilna slika korisnika ${review.name}`}
+              />
+              <blockquote>
+                <p>{review.text}</p>
+                <strong>- {review.name}</strong>
+              </blockquote>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

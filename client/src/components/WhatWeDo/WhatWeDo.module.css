@@ -1,55 +1,72 @@
 .whatWeDoContainer {
   background-color: #e7e7e7;
-  height: 86vh;
 }
+
 .whatWeDoHeading {
   font-size: 64px;
   font-weight: 600;
   text-align: center;
 }
+
 .whatWeDoContentWrapper {
   padding-block: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 54px;
+  height: 100%;
 }
 
 .whatWeDoTextWrapper {
   display: flex;
-  gap: 42px;
+  gap: 60px;
   font-size: 20px;
 }
 .whatWeDoTextWrapper p {
   flex: 1;
 }
 
-.section {
+.whatWeDoTextSection {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.section p {
-  font-size: 18px;
+.whatWeDoTextSectionHeading {
+  font-size: 30px;
+}
+
+.whatWeDoTextSectionContent {
+  font-size: 24px;
 }
 
 @media screen and (max-width: 920px) {
   .whatWeDoContentWrapper {
-    height: 100%;
-    justify-content: space-around;
+    padding-block: 30px;
+    justify-content: space-evenly;
   }
 
   .whatWeDoTextWrapper {
     flex-direction: column;
-    gap: 50px;
     text-align: center;
     justify-content: space-between;
+  }
+
+  .whatWeDoHeading {
+    font-size: 50px;
+  }
+
+  .whatWeDoTextSectionHeading {
+    font-size: 22px;
+  }
+
+  .whatWeDoTextSectionContent {
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .whatWeDoContainer {
+  /* .whatWeDoContainer {
     height: 100%;
-  }
+  } */
 }

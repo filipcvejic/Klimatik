@@ -10,11 +10,12 @@ const WhatWeDo = () => {
         >
           O nama
         </h2>
-
         <div className={styles.whatWeDoTextWrapper}>
-          <div className={styles.section}>
-            <h3>Naša stručnost</h3>
-            <p>
+          <div className={styles.whatWeDoTextSection}>
+            <h3 className={styles.whatWeDoTextSectionHeading}>
+              Naša stručnost
+            </h3>
+            <p className={styles.whatWeDoTextSectionContent}>
               Naša kompanija specijalizovana je za{" "}
               <strong>profesionalnu ugradnju klima uređaja</strong>, pružajući
               vam najbolje rešenje za efikasno hlađenje i klimatizaciju vašeg
@@ -23,12 +24,12 @@ const WhatWeDo = () => {
               ili zamena postojećih sistema, nudimo{" "}
               <strong>brzu i pouzdanu uslugu</strong> prilagođenu vašim
               potrebama. Naš stručni tim osigurava kvalitetnu montažu kako biste
-              uštedeli energiju i smanjili troškove.
+              uštedeli energiju i troškove.
             </p>
           </div>
-          <div className={styles.section}>
-            <h3>Naša misija</h3>
-            <p>
+          <div className={styles.whatWeDoTextSection}>
+            <h3 className={styles.whatWeDoTextSectionHeading}>Naša misija</h3>
+            <p className={styles.whatWeDoTextSectionContent}>
               Sa dugogodišnjim iskustvom u{" "}
               <strong>ugradnji klima uređaja</strong> za stambene i poslovne
               objekte, garantujemo maksimalnu udobnost i{" "}

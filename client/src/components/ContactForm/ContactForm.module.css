@@ -6,15 +6,25 @@
   display: flex;
   padding-block: 40px;
   gap: 100px;
+  align-items: center;
 }
 
-.contactFormDescription,
+.contactFormDescriptionContent,
 .contactFormSubmition {
   flex: 1;
 }
 
-.contactFormDescription h2 {
+.contactFormDescriptionSubHeading {
+  font-size: 24px;
+}
+
+.contactFormDescriptionHeading {
   margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.contactFormText {
+  font-size: 18px;
 }
 
 .contactFormSubmition {
@@ -44,12 +54,12 @@
 }
 
 .contactFormButton {
-  width: 100px;
-  height: 35px;
-  font-size: 16px;
-  font-weight: 600;
+  width: 150px;
+  height: 40px;
   border: none;
   background-color: #fbd858;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .contactFormButton:hover {
@@ -65,13 +75,16 @@
     flex-direction: column;
     text-align: center;
   }
+
+  .contactFormSubmition {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .nameAndSurnameFieldsWrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
 
   .nameAndSurnameFieldsWrapper input {

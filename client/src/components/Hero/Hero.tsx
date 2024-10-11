@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className={styles.heroContainer}>
       <Image
-        src="/images/hero.png"
+        src="/images/hero.jpg"
         alt="Ugradnja klime - Hero image"
         fill
         className={styles.heroImage}

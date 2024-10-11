@@ -39,9 +39,9 @@ const Offers = () => {
         style={{ padding: 20, paddingBottom: 40, height: "72vh" }}
         spaceBetween={30}
         slidesPerView={3}
-        modules={[Pagination, Scrollbar, A11y, Autoplay]} // Ensure modules are included
+        modules={[Pagination, Scrollbar, A11y, Autoplay]}
         breakpoints={{
-          640: { slidesPerView: 1 },
+          0: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
