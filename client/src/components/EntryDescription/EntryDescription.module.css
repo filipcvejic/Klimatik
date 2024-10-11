@@ -2,7 +2,7 @@
   display: flex;
   gap: 20px;
   margin-block: 60px;
-  padding-top: 45px;
+  padding-top: 24;
   align-items: center;
 }
 
@@ -58,6 +58,11 @@
 .entryDescriptionButton:active {
   background-color: #fbd858;
   color: black;
+}
+
+.entryDescriptionTitle {
+  text-align: center;
+  font-size: 64px;
 }
 
 @media screen and (max-width: 1080px) {

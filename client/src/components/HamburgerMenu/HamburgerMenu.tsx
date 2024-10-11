@@ -96,7 +96,6 @@ export default function HamburgerMenu({ navLinks }: HamburgerMenuProps) {
           ))}
         </ul>
       </div>
-      )
     </>
   );
 }

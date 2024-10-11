@@ -7,7 +7,7 @@
 
 .heroImage {
   object-fit: cover;
-  object-position: center;
+  object-position: right;
 }
 
 .heroContent {
@@ -31,8 +31,10 @@
 
 .heroContent p {
   position: absolute;
+  font-size: 20px;
+  font-weight: 600;
   left: 26px;
-  top: -6px;
+  top: -10px;
 }
 
 .heroContent a {
@@ -50,13 +52,61 @@
   color: white;
   font-size: 50px;
   transition: background-color 0.3s, color 0.3s;
-
   -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.56);
   -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.56);
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.56);
 }
-
 .heroPhoneButton:hover {
   background-color: #fbd858;
   color: black;
+}
+
+@media screen and (max-width: 1280px) {
+  .heroContent {
+    text-align: center;
+    align-items: center;
+    gap: 0;
+    color: white;
+    top: 40%;
+  }
+
+  .heroContent p {
+    position: unset;
+  }
+
+  .heroContent a {
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .heroContent h1 {
+    font-size: 72px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .heroContent h1 {
+    font-size: 58px;
+    line-height: 82px;
+  }
+  .heroContent p {
+    font-size: 16px;
+  }
+  .heroPhoneButton {
+    min-width: 100%;
+    padding: 20px 0px;
+
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .heroContent h1 {
+    font-size: 46px;
+    line-height: 64px;
+  }
+  .heroContent p {
+    font-size: 14px;
+  }
+  .heroPhoneButton {
+    font-size: 38px;
+  }
 }

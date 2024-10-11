@@ -52,8 +52,8 @@ export default function Header() {
               viewBox="0 0 24 24"
               fill="#1B99D2"
               className="size-6"
-              height={35}
-              width={35}
+              height={30}
+              width={30}
             >
               <path
                 fill-rule="evenodd"

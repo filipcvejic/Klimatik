@@ -2,10 +2,16 @@ import React from "react";
 import Image from "next/image";
 import styles from "./EntryDescription.module.css";
 import { PHONE_NUMBER } from "@/constants";
+import { averia_serif_libre } from "@/app/font";
 
 const EntryDescription = () => {
   return (
     <div className={styles.entryDescriptionContainer} id="entry">
+      <h2
+        className={`${styles.entryDescriptionTitle} ${averia_serif_libre.className}`}
+      >
+        Prednosti Klime
+      </h2>
       <div className={`${styles.entryDescriptionContentWrapper} container`}>
         <Image
           src="/images/smartHome.png"
@@ -16,9 +22,6 @@ const EntryDescription = () => {
           className={styles.entryDescriptionImage}
         />
         <div className={styles.entryDescriptionTextWrapper}>
-          <p className={styles.entryDescriptionSubHeading}>
-            Ključne Prednosti Ugradnje Klima Uređaja
-          </p>
           <h2 className={styles.entryDescriptionHeading}>
             Postavljanje Klima Uređaja: Uživajte u Savršenoj Klimi
           </h2>
