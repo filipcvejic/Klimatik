@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <Services />
       <EntryDescription />
-      <InBetween text="radimo 24/7 za vašu rashladu" />
+      <InBetween text="Hladimo leti, grejemo zimi" />
       <Offers />
       <WhatWeDo />
       <Reviews />

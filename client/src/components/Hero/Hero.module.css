@@ -1,6 +1,6 @@
 .heroContainer {
   position: relative;
-  height: 86vh;
+  height: calc(100vh - 130px);
   width: 100vw;
   overflow: hidden;
 }
@@ -40,13 +40,13 @@
 }
 
 .heroContent p span {
-  color: #1b99d2;
+  color: #147da9;
 }
 
 .heroPhoneButton {
   font-weight: 600;
   padding: 20px 60px;
-  background-color: #1b99d2;
+  background-color: #147da9;
   color: white;
   font-size: 50px;
   transition: background-color 0.3s, color 0.3s;
