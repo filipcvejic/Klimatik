@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { ADDRESS, EMAIL } from "@/constants";
 
 export default function Footer() {
   const fields = [
@@ -20,7 +21,7 @@ export default function Footer() {
           />
         </svg>
       ),
-      text: "Adresa: Jovana Jovanica Zmaja 20",
+      text: `Adresa: ${ADDRESS}`,
     },
     {
       icon: (
@@ -36,7 +37,7 @@ export default function Footer() {
           <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
         </svg>
       ),
-      text: "E-mail: uros.n.nikolic123@gmail.com",
+      text: `E-mail: ${EMAIL}`,
     },
     {
       icon: (

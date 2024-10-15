@@ -15,7 +15,7 @@ export default function Hero() {
       />
       <div className={`${styles.heroContent} container`}>
         <p className={styles.heroSubtitle}>
-          <span>Klimatik</span> pouzdana instalacija klime
+          <span>Klimatik</span> pouzdana ugradnja klime
         </p>
         <h1 className={`${styles.heroHeading} ${averia_serif_libre.className}`}>
           Popravka & Ugradnja Klime

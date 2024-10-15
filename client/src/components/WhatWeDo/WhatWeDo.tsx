@@ -20,7 +20,7 @@ const WhatWeDo = () => {
               <strong>profesionalnu ugradnju klima uređaja</strong>, pružajući
               vam najbolje rešenje za efikasno hlađenje i klimatizaciju vašeg
               prostora. Bilo da vam je potrebna{" "}
-              <strong>instalacija novih klima uređaja</strong> ili zamena
+              <strong>ugradnja novih klima uređaja</strong> ili zamena
               postojećih sistema, nudimo <strong>brzu i pouzdanu uslugu</strong>{" "}
               prilagođenu vašim potrebama. Naš stručni tim osigurava kvalitetnu
               montažu kako biste uštedeli energiju i troškove.
