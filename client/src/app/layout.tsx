@@ -17,6 +17,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=G-GHKCYEYPP3`}
+        ></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GHKCYEYPP3');
+            gtag('config', 'AW-16742086901');
+          `}
+        </script>
+
         <Script
           id="gtm-script"
           strategy="afterInteractive"
