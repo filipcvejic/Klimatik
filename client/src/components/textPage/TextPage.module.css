@@ -1,0 +1,67 @@
+.textPageWrapper {
+  margin-top: 130px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cacaca;
+  height: 24vh;
+}
+
+.introduction h1 {
+  font-weight: 500;
+}
+
+.textPageContainer {
+  margin-block: 4rem;
+  line-height: 28px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.textPageContainer h2 {
+  margin-bottom: 1rem;
+}
+
+.textPageArticle {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  grid-template-columns: 50% 50%;
+}
+
+.textPageButton {
+  margin-top: 2rem;
+  font-size: 36px;
+  background-color: #fbd858;
+  border-style: none;
+  padding: 12px 42px;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.textPageButton:hover {
+  background-color: #ffe37f;
+  color: rgb(22, 22, 22);
+}
+
+@media screen and (max-width: 920px) {
+  .textPageArticle {
+    flex-direction: column;
+  }
+
+  .textPageWrapper {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .textPageButton {
+    font-size: 30px;
+  }
+}
