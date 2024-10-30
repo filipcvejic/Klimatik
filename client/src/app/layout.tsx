@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { montserrat } from "./font";
 import Script from "next/script";
+import Header from "@/components/Header";
+import InBetween from "@/components/In-between";
+import Footer from "@/components/Footer";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Ugradnja i Servis Klima Novi Sad | 24/7 Popravke i Održavanje",
+  title: "Ugradnja i Servis Klima Novi Sad | 24/7 Popravke i Odrzavanje",
   description:
-    "Ugradnja, popravka, servis, čišćenje i punjenje freonom klima uređaja Novi Sad i okolina. Povoljne cene i brza usluga svih brendova. Pozovite odmah!",
+    "Ugradnja, popravka, servis, ciscenje i punjenje freonom klima uredjaja Novi Sad i okolina. Povoljne cene i brza usluga svih brendova. Pozovite odmah!",
 };
 
 export default function RootLayout({
@@ -43,7 +47,11 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        {children}
+        <Header />
+        <div className={`contentWrapper`}>{children}</div>
+        <ContactForm />
+        <InBetween text="Fiksna cena, bez skrivenih troskova." />
+        <Footer />
       </body>
     </html>
   );

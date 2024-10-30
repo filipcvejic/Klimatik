@@ -1,9 +1,11 @@
+import Link from "next/link";
 import styles from "./Services.module.css";
 
 export default function Services() {
   const services = [
     {
-      text: "Servis i održavanje klima opreme",
+      text: "Servis i odrzavanje klima opreme",
+      href: "servis&odrzavanje",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +20,8 @@ export default function Services() {
       ),
     },
     {
-      text: "Hitna intervencija za klima uređaje",
+      text: "Hitna intervencija za klima uredjaje",
+      href: "intervencije",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -35,6 +38,7 @@ export default function Services() {
     },
     {
       text: "Dijagnostika kvarova i popravka",
+      href: "kvarovi",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +54,8 @@ export default function Services() {
       ),
     },
     {
-      text: "Zamena starih klima uređaja",
+      text: "Zamena starih klima uredjaja",
+      href: "zamena",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +72,7 @@ export default function Services() {
     },
     {
       text: "Postavljanje ventilacionih sistema",
+      href: "sistemi",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -90,9 +96,11 @@ export default function Services() {
   return (
     <section className={`${styles.servicesContainer} container`}>
       {services.map((service, index) => (
-        <article className={styles.serviceContent} key={index}>
-          {service.icon}
-          <p>{service.text}</p>
+        <article key={index}>
+          <Link href={`/${service.href}`} className={styles.serviceContent}>
+            {service.icon}
+            <p>{service.text}</p>
+          </Link>
         </article>
       ))}
     </section>

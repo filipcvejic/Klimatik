@@ -23,17 +23,17 @@ const EntryDescription = () => {
         />
         <div className={styles.entryDescriptionTextWrapper}>
           <h3 className={styles.entryDescriptionHeading}>
-            Postavljanje Klima Uređaja: Uživajte u Savršenoj Klimi
+            Postavljanje Klima Uredjaja: Uzivajte u Savrsenoj Klimi
           </h3>
           <p className={styles.entryDescriptionText}>
-            U današnje vreme, klima uređaji su postali neophodni za održavanje
-            prijatnog ambijenta u vašem domu ili kancelariji. Naš tim stručnjaka
-            pruža profesionalnu ugradnju klima uređaja koja osigurava optimalan
-            rad i poboljšanje kvaliteta vazduha.
+            U danasnje vreme, klima uredjaji su postali neophodni za odrzavanje
+            prijatnog ambijenta u vasem domu ili kancelariji. Nas tim strucnjaka
+            pruza profesionalnu ugradnju klima uredjaja koja osigurava optimalan
+            rad i poboljsanje kvaliteta vazduha.
             <br />
-            Naša usluga uključuje besplatnu procenu i savetovanje o najboljim
-            rešenjima za vaš prostor. Kontaktirajte nas i saznajte kako možemo
-            poboljšati vašu udobnost!
+            Nasa usluga ukljucuje besplatnu procenu i savetovanje o najboljim
+            resenjima za vas prostor. Kontaktirajte nas i saznajte kako mozemo
+            poboljsati vasu udobnost!
           </p>
           <a
             href={`tel:${PHONE_NUMBER}`}

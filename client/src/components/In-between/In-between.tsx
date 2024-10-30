@@ -12,7 +12,7 @@ export default function InBetween({ text }: { text: string }) {
         <a
           href={`tel:${PHONE_NUMBER}`}
           className={`${styles.inBetweenCallButton} ${averia_serif_libre.className}`}
-          aria-label={`Pozovite ${PHONE_NUMBER}`} // Dodato za pristupačnost
+          aria-label={`Pozovite ${PHONE_NUMBER}`}
         >
           {CALL_BUTTON_SLOGAN}
         </a>

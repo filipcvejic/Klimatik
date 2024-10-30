@@ -1,0 +1,97 @@
+.articlePageIntroduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cacaca;
+  height: 150px;
+}
+
+.articlePageHeading {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.articlePageContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-block: 50px;
+}
+
+.imageTextSectionImageContainer {
+  width: 50%;
+  height: 400px;
+  position: relative;
+}
+
+.imageTextSectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 50%;
+}
+
+.imageTextSectionTitle,
+.textSectionTitle {
+  font-size: 32px;
+}
+
+.imageTextSectionParagraph,
+.textSectionParagraph {
+  font-size: 18px;
+}
+
+.imageTextSection,
+.imageTextSectionReversed {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.imageTextSectionReversed {
+  flex-direction: row-reverse;
+}
+
+.imageTextSectionPhoneButton {
+  background-color: #fbd858;
+  width: max-content;
+  padding: 15px 30px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.imageTextSectionPhoneButton:hover {
+  background-color: #ffe37f;
+}
+
+@media screen and (max-width: 720px) {
+  .articlePageHeading {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .textSection {
+    text-align: center;
+  }
+
+  .imageTextSection,
+  .imageTextSectionReversed {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imageTextSectionImageContainer,
+  .imageTextSectionContent {
+    width: 100%;
+  }
+
+  .imageTextSectionContent {
+    align-items: center;
+    gap: 15px;
+  }
+
+  .imageTextSectionTitle,
+  .textSectionTitle {
+    font-size: 26px;
+  }
+}

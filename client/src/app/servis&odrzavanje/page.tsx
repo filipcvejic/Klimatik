@@ -1,34 +1,32 @@
-import ContactForm from "@/components/ContactForm";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import InBetween from "@/components/In-between";
-import TextPage from "@/components/textPage/TextPage";
-import React from "react";
+import ArticlePage from "@/components/ArticlePage/ArticlePage";
 
 const Servis = () => {
   return (
-    <div>
-      <Header />
-      <TextPage
-        mainTitle="Servis i održavanje klima uređaja"
-        text1="Redovan servis i održavanje klima uređaja su ključni za dugotrajan rad i optimalne performanse. Naš tim stručnjaka nudi uslugu detaljnog čišćenja i provere svih komponenti klima uređaja, uključujući kompresor, filtere i ventilatore. Održavanjem klima uređaja osiguravate pouzdan rad, bolju energetsku efikasnost i čistiji vazduh u prostoru."
-        text2="
-Naš stručni tim vrši profesionalan servis klima uređaja, fokusirajući se na proaktivnu prevenciju kvarova i produžavanje radnog veka vašeg sistema. Bilo da vam je potreban sezonski pregled ili redovno održavanje, naši tehničari koriste vrhunsku opremu kako bi obezbedili efikasan rad klime i poboljšanu funkcionalnost. Naša usluga uključuje sveobuhvatnu proveru uređaja i zamenu potrebnih delova."
-        text3="
-Za optimalan rad klima uređaja tokom cele godine, važno je redovno vršiti čišćenje i proveru komponenti. Naš tim specijalizovan je za održavanje koje uključuje čišćenje unutrašnjih i spoljašnjih jedinica, uklanjanje prašine i zamenu filtera. Redovnim servisom sprečavate kvarove i produžavate trajanje vašeg klima uređaja, uz osiguranje maksimalne efikasnosti i nižih troškova energije."
-        text4="
-Pravovremeno servisiranje klima uređaja značajno smanjuje rizik od većih kvarova i omogućava duži vek trajanja sistema. Naša usluga održavanja osigurava da vaš klima uređaj radi efikasno tokom cele godine, uz minimiziranje troškova popravki. Pored servisa, pružamo korisne savete za pravilno korišćenje i održavanje, čime pomažemo u očuvanju efikasnosti i dugovečnosti vašeg klima uređaja."
-        title1="Kompletan servis klima uređaja"
-        title2="Održavanje sistema"
-        title3="Redovno čišćenje i provera"
-        title4="Dugotrajan rad i pouzdanost"
-        img1={"/images/textPage2.jpg"}
-        img2={"/images/textPage5.jpg"}
-      />
-      <ContactForm />
-      <InBetween text="Fiksna cena, bez skrivenih troškova." />
-      <Footer />
-    </div>
+    <ArticlePage
+      mainTitle={`Servis i odrzavanje klima uredjaja`}
+      sections={[
+        {
+          title: "Kompletan servis klima uredjaja",
+          text: "Redovan __servis i odrzavanje klima uredjaja__ su kljucni za dugotrajan rad i optimalne performanse. Nas tim strucnjaka nudi uslugu detaljnog __ciscenja__ i provere svih komponenti __klima uredjaja__, ukljucujuci kompresor, filtere i ventilatore. __Odrzavanjem klima uredjaja__ osiguravate pouzdan rad, bolju energetsku efikasnost i cistiji vazduh u prostoru.",
+        },
+        {
+          title: "Odrzavanje sistema",
+          text: "Nas strucni tim vrsi _profesionalan __servis klima uredjaja__, fokusirajuci se na proaktivnu prevenciju kvarova i produzavanje radnog veka vaseg sistema. Bilo da vam je potreban sezonski pregled ili redovno odrzavanje, nasi tehnicari koriste vrhunsku opremu kako bi obezbedili efikasan rad klime i poboljsanu funkcionalnost. Nasa usluga ukljucuje sveobuhvatnu proveru uredjaja i zamenu potrebnih delova.",
+          imgSrc: "/images/servisiImage1.jpg",
+          imgAlt: "Slika servisa klima uređaja",
+        },
+        {
+          title: "Redovno ciscenje i provera",
+          text: "Za optimalan rad klima uredjaja tokom cele godine, vazno je redovno vrsiti ciscenje i proveru komponenti. Nas tim specijalizovan je za odrzavanje koje ukljucuje __ciscenje unutrasnjih i spoljasnjih jedinica__, uklanjanje prasine i zamenu filtera. Redovnim servisom sprecavate kvarove i produzavate trajanje vaseg klima uredjaja, uz osiguranje maksimalne efikasnosti i nizih troskova energije.",
+        },
+        {
+          title: "Dugotrajan rad i pouzdanost",
+          text: "Pravovremeno __servisiranje klima uredjaja__ znacajno smanjuje rizik od vecih kvarova i omogucava duzi vek trajanja sistema. Nasa usluga odrzavanja osigurava da vas klima uredjaj radi efikasno tokom cele godine, uz minimiziranje troskova popravki. Pored servisa, pruzamo korisne savete za pravilno koriscenje i odrzavanje, cime pomazemo u ocuvanju efikasnosti i dugovecnosti vaseg klima uredjaja.",
+          imgSrc: "/images/servisiImage2.jpg",
+          imgAlt: "Slika održavanja klima uređaja",
+        },
+      ]}
+    />
   );
 };
 
