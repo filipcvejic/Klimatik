@@ -10,13 +10,19 @@
   background-color: #147da9;
   padding-inline: 10px;
   width: 100%;
+  height: 250px;
+  color: white;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+}
+
+.serviceContent a {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 250px;
-  color: white;
-  transition: 0.4s;
 }
 
 .serviceContent p {

@@ -96,8 +96,8 @@ export default function Services() {
   return (
     <section className={`${styles.servicesContainer} container`}>
       {services.map((service, index) => (
-        <article key={index}>
-          <Link href={`/${service.href}`} className={styles.serviceContent}>
+        <article key={index} className={styles.serviceContent}>
+          <Link href={`/${service.href}`}>
             {service.icon}
             <p>{service.text}</p>
           </Link>

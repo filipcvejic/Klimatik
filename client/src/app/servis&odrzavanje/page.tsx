@@ -13,7 +13,7 @@ const Servis = () => {
           title: "Odrzavanje sistema",
           text: "Nas strucni tim vrsi _profesionalan __servis klima uredjaja__, fokusirajuci se na proaktivnu prevenciju kvarova i produzavanje radnog veka vaseg sistema. Bilo da vam je potreban sezonski pregled ili redovno odrzavanje, nasi tehnicari koriste vrhunsku opremu kako bi obezbedili efikasan rad klime i poboljsanu funkcionalnost. Nasa usluga ukljucuje sveobuhvatnu proveru uredjaja i zamenu potrebnih delova.",
           imgSrc: "/images/servisiImage1.jpg",
-          imgAlt: "Slika servisa klima uređaja",
+          imgAlt: "Slika servisa klima uredjaja",
         },
         {
           title: "Redovno ciscenje i provera",
@@ -23,7 +23,7 @@ const Servis = () => {
           title: "Dugotrajan rad i pouzdanost",
           text: "Pravovremeno __servisiranje klima uredjaja__ znacajno smanjuje rizik od vecih kvarova i omogucava duzi vek trajanja sistema. Nasa usluga odrzavanja osigurava da vas klima uredjaj radi efikasno tokom cele godine, uz minimiziranje troskova popravki. Pored servisa, pruzamo korisne savete za pravilno koriscenje i odrzavanje, cime pomazemo u ocuvanju efikasnosti i dugovecnosti vaseg klima uredjaja.",
           imgSrc: "/images/servisiImage2.jpg",
-          imgAlt: "Slika održavanja klima uređaja",
+          imgAlt: "Slika održavanja klima uredjaja",
         },
       ]}
     />
