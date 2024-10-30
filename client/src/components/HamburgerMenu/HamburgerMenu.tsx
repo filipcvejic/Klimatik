@@ -73,7 +73,7 @@ export default function HamburgerMenu({ navLinks }: HamburgerMenuProps) {
         <ul className={styles.menuList}>
           {navLinks.map((navLink, index) => (
             <li className={styles.menuItem} key={index}>
-              <a href={`#${navLink.href}`} onClick={() => setIsOpened(false)}>
+              <a href={`/#${navLink.href}`} onClick={() => setIsOpened(false)}>
                 <div className={styles.menuLabel}>
                   <p>{navLink.label}</p>
                 </div>
