@@ -23,7 +23,7 @@ const Servis = () => {
           title: "Dugotrajan rad i pouzdanost",
           text: "Pravovremeno __servisiranje klima uredjaja__ znacajno smanjuje rizik od vecih kvarova i omogucava duzi vek trajanja sistema. Nasa usluga odrzavanja osigurava da vas klima uredjaj radi efikasno tokom cele godine, uz minimiziranje troskova popravki. Pored servisa, pruzamo korisne savete za pravilno koriscenje i odrzavanje, cime pomazemo u ocuvanju efikasnosti i dugovecnosti vaseg klima uredjaja.",
           imgSrc: "/images/servisiImage2.jpg",
-          imgAlt: "Slika održavanja klima uredjaja",
+          imgAlt: "Slika odrzavanja klima uredjaja",
         },
       ]}
     />

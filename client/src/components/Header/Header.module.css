@@ -42,13 +42,26 @@
   gap: 10px;
 }
 
-.topHeaderPhoneContactWrapper a {
+.topHeaderPhoneContactWrapper a,
+.topHeaderMail {
   transition: color 0.2s;
+}
+
+.topHeaderInstagramContactWrapper svg {
+  transition: fill 0.2s;
+}
+
+.topHeaderPhoneContactWrapper a {
   font-size: 26px;
 }
 
-.topHeaderPhoneContactWrapper a:hover {
+.topHeaderPhoneContactWrapper a:hover,
+.topHeaderMail:hover {
   color: #147da9;
+}
+
+.topHeaderInstagramContactWrapper:hover svg {
+  fill: #147da9;
 }
 
 .logoWrapper {
