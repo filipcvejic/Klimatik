@@ -6,23 +6,23 @@ export default function Reviews() {
   const reviews = [
     {
       picture: "/images/handsomeMan.png",
-      text: "“Vrlo smo zadovoljni uslugom ugradnje klime. Tim je bio efikasan, ljubazan i precizan, a klima uređaj je postavljen bez ikakvih zastoja. Sve preporuke za ovaj stručni tim!”",
-      name: "Marko Petrović",
+      text: "“Vrlo smo zadovoljni uslugom ugradnje klime. Tim je bio efikasan, ljubazan i precizan, a klima uredjaj je postavljen bez ikakvih zastoja. Sve preporuke za ovaj strucni tim!”",
+      name: "Marko Petrovic",
     },
     {
       picture: "/images/handsomeWoman.png",
-      text: "“Ugradnja klime je prošla brzo i bez problema. Tim je bio profesionalan, a rezultat je odličan. Sada uživamo u prijatnoj temperaturi tokom cele godine.”",
-      name: "Ana Jovanović",
+      text: "“Ugradnja klime je prosla brzo i bez problema. Tim je bio profesionalan, a rezultat je odlican. Sada uzivamo u prijatnoj temperaturi tokom cele godine.”",
+      name: "Ana Jovanovic",
     },
     {
       picture: "/images/fatMan.png",
       text: "“Ekipa za ugradnju klime je stigla na vreme, radila profesionalno i sve objasnila detaljno. Postavili su klimu brzo, bez ikakvih problema. Topla preporuka.”",
-      name: "Milan Nikolić",
+      name: "Milan Nikolic",
     },
     {
       picture: "/images/fatWoman.png",
-      text: "“Odlična usluga! Ugradnja klime je bila brza i jednostavna, a klima radi savršeno. Tim je bio ljubazan i vrlo profesionalan. Hvala vam!”",
-      name: "Ivana Stojanović",
+      text: "“Odlicna usluga! Ugradnja klime je bila brza i jednostavna, a klima radi savrseno. Tim je bio ljubazan i vrlo profesionalan. Hvala vam!”",
+      name: "Ivana Stojanovic",
     },
   ];
 

@@ -7,7 +7,7 @@ import { averia_serif_libre } from "@/app/font";
 export default function Header() {
   const navigationLinks = [
     {
-      label: "Početna",
+      label: "Pocetna",
       href: "home",
     },
     {
@@ -69,7 +69,7 @@ export default function Header() {
       </div>
       <div className={styles.mainHeaderWrapper}>
         <div className={`${styles.mainHeaderContent} container`}>
-          <a href="#home" className={styles.logoWrapper}>
+          <a href="/" className={styles.logoWrapper}>
             <Image
               src="/images/logo.png"
               alt="Klimatik logo"
@@ -84,7 +84,7 @@ export default function Header() {
             <ul>
               {navigationLinks.map((navLink, index) => (
                 <li key={index}>
-                  <a className={styles.navLinkLabel} href={`#${navLink.href}`}>
+                  <a className={styles.navLinkLabel} href={`/#${navLink.href}`}>
                     {navLink.label}
                   </a>
                 </li>

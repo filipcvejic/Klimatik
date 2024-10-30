@@ -18,7 +18,7 @@ export default function Hero() {
           <span>Klimatik</span> pouzdana ugradnja klime
         </p>
         <h1 className={`${styles.heroHeading} ${averia_serif_libre.className}`}>
-          Montaža, Servis & Popravka Klime
+          Montaza, Servis i Popravka Klime
         </h1>
         <a href={`tel:${PHONE_NUMBER}`} className={styles.heroPhoneButton}>
           {PHONE_NUMBER}
